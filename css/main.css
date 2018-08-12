@@ -1,0 +1,27 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-size: 18px;
+    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans", sans-serif;
+    color: #444
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 0;
+    padding: 10px 0 0;
+}
+
+aside {
+    font-size: 20px;
+}
