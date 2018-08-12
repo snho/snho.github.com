@@ -1,1 +1,3 @@
-"# snho.github.com" 
+# snho.github.com
+
+Personal website hosted via gh-pages.
