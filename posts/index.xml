@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Thinh Ho</title>
-    <link>http://thinh.com.au/posts/</link>
+    <link>https://thinh.com.au/posts/</link>
     <description>Recent content in Posts on Thinh Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Nov 2021 16:06:52 +1000</lastBuildDate><atom:link href="http://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Nov 2021 16:06:52 +1000</lastBuildDate><atom:link href="https://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Commissioning Tool Bag Tour</title>
-      <link>http://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</link>
+      <link>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</link>
       <pubDate>Tue, 16 Nov 2021 16:06:52 +1000</pubDate>
       
-      <guid>http://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</guid>
+      <guid>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</guid>
       <description>Personal Commissioning/Go Bag
  The last few jobs I did had me travel a fair bit, and as part of those trips I did lots of commissioning/installation work of low voltage and standalone electrical equipment without work covering for the tools. Due to the nature of some of the places I was travelling (MEA and SEA primarily), you really couldn&amp;rsquo;t guarantee what would be available on-site. As an example, one of the sites I visited in the Middle-East only had a single (corded) power drill on site, shared by at least dozen workers!</description>
     </item>
     
     <item>
       <title>Trying Out Hugo</title>
-      <link>http://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</link>
+      <link>https://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</link>
       <pubDate>Mon, 15 Nov 2021 15:41:53 +1000</pubDate>
       
-      <guid>http://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</guid>
+      <guid>https://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</guid>
       <description>This blog is using Hugo. It was pretty quick and easy to setup. My only previous static site generator experience was Jekyll.
 It is currently using the Tanka theme. This is subject to change as I dive deeper and will either modify it (likely) or switch it up completely.
 Hugo was selected because:
