@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</loc>
-    <lastmod>2021-11-16T16:06:52+10:00</lastmod>
+    <loc>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</loc>
+    <lastmod>2021-11-30T12:00:36+10:00</lastmod>
   </url><url>
     <loc>https://thinh.com.au/posts/</loc>
-    <lastmod>2021-11-16T16:06:52+10:00</lastmod>
+    <lastmod>2021-11-30T12:00:36+10:00</lastmod>
   </url><url>
     <loc>https://thinh.com.au/</loc>
+    <lastmod>2021-11-30T12:00:36+10:00</lastmod>
+  </url><url>
+    <loc>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</loc>
     <lastmod>2021-11-16T16:06:52+10:00</lastmod>
   </url><url>
     <loc>https://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</loc>

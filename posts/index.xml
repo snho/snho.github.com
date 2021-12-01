@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Thinh Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Nov 2021 16:06:52 +1000</lastBuildDate><atom:link href="https://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Nov 2021 12:00:36 +1000</lastBuildDate><atom:link href="https://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customisable Parametric Spool</title>
+      <link>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</link>
+      <pubDate>Tue, 30 Nov 2021 12:00:36 +1000</pubDate>
+      
+      <guid>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</guid>
+      <description>3D printed spool of wire.
+This is a customisable spool that I designed in OpenSCAD. You should be able to customise most aspects of the spool to fit your spooling needs. I&amp;rsquo;ve uploaded it to Thingiverse and it&amp;rsquo;s also available on my Github repo
+Originally I designed a non-customisable spool to share some solder wire for a friend, but quickly figured out this would be a good opportunity to design a customisable part that I could use to organise/share other items in my workshop such as cables, rope, foam tapes, and thread.</description>
+    </item>
+    
     <item>
       <title>Commissioning Tool Bag Tour</title>
       <link>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</link>
@@ -14,7 +25,7 @@
       
       <guid>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</guid>
       <description>Personal Commissioning/Go Bag
- The last few jobs I did had me travel a fair bit, and as part of those trips I did lots of commissioning/installation work of low voltage and standalone electrical equipment without work covering for the tools. Due to the nature of some of the places I was travelling (MEA and SEA primarily), you really couldn&amp;rsquo;t guarantee what would be available on-site. As an example, one of the sites I visited in the Middle-East only had a single (corded) power drill on site, shared by at least dozen workers!</description>
+The last few jobs I did had me travel a fair bit, and as part of those trips I did lots of commissioning and installation work of low voltage and standalone electrical equipment (solar/battery) without work, or the site/client providing the tools. Due to the nature of some of the places I was travelling (MEA and SEA primarily), you really couldn&amp;rsquo;t guarantee what would be available on-site.</description>
     </item>
     
     <item>
