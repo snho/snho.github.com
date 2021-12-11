@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>https://thinh.com.au/posts/fixing-dead-sordins/fixing-dead-sordins/</loc>
     <lastmod>2021-12-11T14:18:26+10:00</lastmod>
   </url><url>
@@ -12,6 +13,15 @@
     <lastmod>2021-12-11T14:18:26+10:00</lastmod>
   </url><url>
     <loc>https://thinh.com.au/posts/sharex/sharex/</loc>
+=======
+    <loc>https://thinh.com.au/posts/</loc>
+    <lastmod>2021-12-06T12:23:21+10:00</lastmod>
+  </url><url>
+    <loc>https://thinh.com.au/posts/sharex/sharex/</loc>
+    <lastmod>2021-12-06T12:23:21+10:00</lastmod>
+  </url><url>
+    <loc>https://thinh.com.au/</loc>
+>>>>>>> b601f06546949695cefc2fe2da146ec392959301
     <lastmod>2021-12-06T12:23:21+10:00</lastmod>
   </url><url>
     <loc>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</loc>
