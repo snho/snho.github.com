@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Posts - Thinh Ho </title>
+    <title> Customisable Parametric Spool - Thinh Ho </title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="referrer" content="no-referrer">
@@ -12,18 +12,18 @@
     <meta property="og:site_name" content="Thinh Ho" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://thinh.com.au/posts/" />
-    <meta property="og:title" content="Posts" />
+    <meta property="og:url" content="https://thinh.com.au/posts/customisable-parametric-spool/" />
+    <meta property="og:title" content="Customisable Parametric Spool" />
     <meta property="og:image" content="https://thinh.com.au/" />
     <meta property="og:description" content="" />
 
     <meta name="twitter:card" content="summary_large_image" />
     
-    <meta name="twitter:title" content="Posts" />
+    <meta name="twitter:title" content="Customisable Parametric Spool" />
     <meta name="twitter:description" content="" />
     <meta name="twitter:image" content="https://thinh.com.au/" />
 
-    <link rel="canonical" href="https://thinh.com.au/posts/">
+    <link rel="canonical" href="https://thinh.com.au/posts/customisable-parametric-spool/">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
 
@@ -95,44 +95,69 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Customisable Parametric Spool</h1>
                     <div class="markdown">
                         
-    
+    <div class="figure">
+<p><img src="https://thinh.com.au/images/spool.png" alt=""></p>
+<p class="caption">3D printed spool of wire.</a></p>
+</div>
+<p>This is a customisable spool that I designed in <a href="https://openscad.org/">OpenSCAD</a>. You should be able to customise most aspects of the spool to fit your spooling needs. I&rsquo;ve uploaded it to <a href="https://www.thingiverse.com/thing:5140780">Thingiverse</a> and it&rsquo;s also available on my <a href="https://github.com/snho/3DPrinting/tree/master/scad/Parametric-Spool">Github repo</a></p>
+<p>Originally I designed a <a href="https://github.com/snho/3DPrinting/tree/master/Solder-Reel">non-customisable spool</a> to share some solder wire for a friend, but quickly figured out this would be a good opportunity to design a customisable part that I could use to organise/share other items in my workshop such as cables, rope, foam tapes, and thread. For the customisable/parametric part of the design I decided it was a good opporunity to learn to use OpenSCAD. This is due to its support on Thingiverse through their &ldquo;Customizer&rdquo; app. This would allow folks that aren&rsquo;t as familiar with OpenSCAD to modify and export their own files to print without any CAD knowledge or need to download software.</p>
+<p>Example of some of the customisable parameters:</p>
+<pre tabindex="0"><code>/* [Spool] */
+
+// Flange diameter of the spool
+FLANGE_DIAMETER = 50;
+// Inside diameter of the spool        
+INSIDE_DIAMETER = 10;
+// Outside Rim Thickness        
+FLANGE_THICKNESS = 5;
+// Inside shaft wall thickness       
+BARREL_THICKNESS = 5;
+// Traverse Length       
+TRAVERSE = 60;
+// Sides in a circle(the quality of the circle). 
+//Can result in non-circular shapes when the number of sides is small.       
+SIDES = 100; // [3:500]
+
+/* [Connection] */
+
+// Shaft Connector Length        
+CONNECTOR_LENGTH = 10;
+// Clearance for fit and glue       
+CONNECTOR_CLEARANCE = 1;
+</code></pre><p>Diagram that shows what parameters can be customised:</p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/spool-parameters.png" alt=""></p>
+<p class="caption">Diagram of the modifable parameters of the spool.</a></p>
+</div>
+<p>I hope to return to this project that I made a few years ago as there&rsquo;s some improvement that I would like to add to it. Such as a little hole for some cable management/retention when not in use, as well as opening up some more configuration.</p>
+<p>There&rsquo;s been some crossover recently with what I&rsquo;ve been learning with OpenSCAD and some personal projects (leather crafting) that I hope to do a write-up on shortly.</p>
 
 
-                    </div>
 
-                    <div class="mx-0 mx-md-4 posts">
-                        <h1>Sections</h1>
-                        <ul>
-                            
-                                <li>
-                                    <a href="https://thinh.com.au/posts/commissioning-toolbag-tour/"><span>Commissioning Tool Bag Tour</span></a>
-                                </li>
-                            
-                                <li>
-                                    <a href="https://thinh.com.au/posts/customisable-parametric-spool/"><span>Customisable Parametric Spool</span></a>
-                                </li>
-                            
-                                <li>
-                                    <a href="https://thinh.com.au/posts/fixing-dead-sordins/"><span>Fixing “Dead” Sordins</span></a>
-                                </li>
-                            
-                                <li>
-                                    <a href="https://thinh.com.au/posts/sharex/"><span>ShareX</span></a>
-                                </li>
-                            
-                                <li>
-                                    <a href="https://thinh.com.au/posts/trying-out-hugo/"><span>Trying Out Hugo</span></a>
-                                </li>
-                            
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        <script src="https://utteranc.es/client.js" repo=""
+                            issue-term="pathname" label="comment" theme="github-light" crossorigin="anonymous" async>
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     
 
 
