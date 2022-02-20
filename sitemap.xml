@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
+=======
+    <loc>https://thinh.com.au/posts/fixing-dead-sordins/</loc>
+    <lastmod>2021-12-11T14:18:26+10:00</lastmod>
+  </url><url>
+>>>>>>> d45b222e75254cc93f27aaf2c546fd3e952992f2
     <loc>https://thinh.com.au/posts/</loc>
     <lastmod>2022-02-02T15:33:06+10:00</lastmod>
   </url><url>
