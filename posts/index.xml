@@ -6,35 +6,56 @@
     <description>Recent content in Posts on Thinh Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Dec 2021 14:18:26 +1000</lastBuildDate><atom:link href="https://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 15:33:06 +1000</lastBuildDate><atom:link href="https://thinh.com.au/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resecuring Pelican Case Padlock Protectors</title>
+      <link>https://thinh.com.au/posts/resecuring-pelican-case-padlock-protectors/</link>
+      <pubDate>Wed, 02 Feb 2022 15:33:06 +1000</pubDate>
+      
+      <guid>https://thinh.com.au/posts/resecuring-pelican-case-padlock-protectors/</guid>
+      <description>Pelican Case padlock protector.
+ Some Pelican cases come with stainless steel padlock protectors to prevent damage to the polymer due to wear from an attached padlock. However, the stamped stainless steel padlock protectors can come loose overtime. Especially in rough conditions like getting bumped around in transport. Luckily, if they do become loose with the padlocks on, they&amp;rsquo;re not going anywhere, so you can reattach them pretty easily with the method described here.</description>
+    </item>
+    
+    <item>
+      <title>2021 Reading List</title>
+      <link>https://thinh.com.au/posts/2021-reading-list/</link>
+      <pubDate>Mon, 10 Jan 2022 15:33:36 +1000</pubDate>
+      
+      <guid>https://thinh.com.au/posts/2021-reading-list/</guid>
+      <description>New Reads These are some of my favourite books I&amp;rsquo;ve read and completed in 2021. They&amp;rsquo;re not in any particular rank.
+Project Hail Mary by Andy Weir
+A must read if you were a fan of The Martian like I was. I was left a little disappointed with Andy Weir&amp;rsquo;s second novel, Artemis, but lightning (thankfully!) strikes twice with Project Hail Mary. The scientific exposition is digestible for a layman, but maybe not fully as in-depth as some might wanted as I&amp;rsquo;ve heard from some friends that have shared their thoughts with me.</description>
+    </item>
+    
     <item>
       <title>Fixing “Dead” Sordins</title>
-      <link>https://thinh.com.au/posts/fixing-dead-sordins/fixing-dead-sordins/</link>
+      <link>https://thinh.com.au/posts/fixing-dead-sordins/</link>
       <pubDate>Sat, 11 Dec 2021 14:18:26 +1000</pubDate>
       
-      <guid>https://thinh.com.au/posts/fixing-dead-sordins/fixing-dead-sordins/</guid>
+      <guid>https://thinh.com.au/posts/fixing-dead-sordins/</guid>
       <description>Sordin Supreme Pro-Xs
- The Problem Sordin Supreme series electronic hearing protectors / &amp;ldquo;earpro&amp;rsquo;s&amp;rdquo; can have an issue with their battery compartment leading to the user thinking the device has failed.
+The Problem Sordin Supreme series electronic hearing protectors / &amp;ldquo;earpro&amp;rsquo;s&amp;rdquo; can have an issue with their battery compartment leading to the user thinking the device has failed.
 Common symptoms include:
  Intermittent power before total lost of power/function during vibration or a lot of head movements. No power when batteries installed/fresh batteries are installed. Signs of corrosion with old batteries. Broken battery tab on the removal of old batteries.</description>
     </item>
     
     <item>
       <title>ShareX</title>
-      <link>https://thinh.com.au/posts/sharex/sharex/</link>
+      <link>https://thinh.com.au/posts/sharex/</link>
       <pubDate>Mon, 06 Dec 2021 12:23:21 +1000</pubDate>
       
-      <guid>https://thinh.com.au/posts/sharex/sharex/</guid>
+      <guid>https://thinh.com.au/posts/sharex/</guid>
       <description>ShareX - my preferred screenshot tool for Windows.
 I&amp;rsquo;m OS agnostic, but one of the programs I wish I had on all the computers I use would be ShareX. Years ago, ShareX originally for me was a more powerful replacement to the stock snipping tool on Windows, and something that I could get close to the built in screen capture tools on macOS through hotkeys. It has since surpassed being just my screenshot program, as it does so much more!</description>
     </item>
     
     <item>
       <title>Customisable Parametric Spool</title>
-      <link>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</link>
+      <link>https://thinh.com.au/posts/customisable-parametric-spool/</link>
       <pubDate>Tue, 30 Nov 2021 12:00:36 +1000</pubDate>
       
-      <guid>https://thinh.com.au/posts/customisable-parametric-spool/customisable-parametric-spool/</guid>
+      <guid>https://thinh.com.au/posts/customisable-parametric-spool/</guid>
       <description>3D printed spool of wire.
 This is a customisable spool that I designed in OpenSCAD. You should be able to customise most aspects of the spool to fit your spooling needs. I&amp;rsquo;ve uploaded it to Thingiverse and it&amp;rsquo;s also available on my Github repo
 Originally I designed a non-customisable spool to share some solder wire for a friend, but quickly figured out this would be a good opportunity to design a customisable part that I could use to organise/share other items in my workshop such as cables, rope, foam tapes, and thread.</description>
@@ -42,20 +63,20 @@ Originally I designed a non-customisable spool to share some solder wire for a f
     
     <item>
       <title>Commissioning Tool Bag Tour</title>
-      <link>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</link>
+      <link>https://thinh.com.au/posts/commissioning-toolbag-tour/</link>
       <pubDate>Tue, 16 Nov 2021 16:06:52 +1000</pubDate>
       
-      <guid>https://thinh.com.au/posts/commissioning-tool-bag-tour/commissioning-toolbag-tour/</guid>
+      <guid>https://thinh.com.au/posts/commissioning-toolbag-tour/</guid>
       <description>Personal Commissioning/Go Bag
 The last few jobs I did had me travel a fair bit, and as part of those trips I did lots of commissioning and installation work of low voltage and standalone electrical equipment (solar/battery) without work, or the site/client providing the tools. Due to the nature of some of the places I was travelling (MEA and SEA primarily), you really couldn&amp;rsquo;t guarantee what would be available on-site.</description>
     </item>
     
     <item>
       <title>Trying Out Hugo</title>
-      <link>https://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</link>
+      <link>https://thinh.com.au/posts/trying-out-hugo/</link>
       <pubDate>Mon, 15 Nov 2021 15:41:53 +1000</pubDate>
       
-      <guid>https://thinh.com.au/posts/trying-out-hugo/trying-out-hugo/</guid>
+      <guid>https://thinh.com.au/posts/trying-out-hugo/</guid>
       <description>This blog is using Hugo. It was pretty quick and easy to setup. My only previous static site generator experience was Jekyll.
 It is currently using the Tanka theme. This is subject to change as I dive deeper and will either modify it (likely) or switch it up completely.
 Hugo was selected because:
