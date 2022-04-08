@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> WFH OBS Video Conferencing Setup - Thinh Ho </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="Thinh Ho" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://thinh.com.au/posts/wfh-video-conferencing-setup/" />
+    <meta property="og:title" content="WFH OBS Video Conferencing Setup" />
+    <meta property="og:image" content="https://thinh.com.au/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="WFH OBS Video Conferencing Setup" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://thinh.com.au/" />
+
+    <link rel="canonical" href="https://thinh.com.au/posts/wfh-video-conferencing-setup/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://thinh.com.au/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://thinh.com.au/images/favicon.png">
+
+    
+    <link href="https://thinh.com.au/index.xml" rel="alternate" type="application/rss+xml" title="Thinh Ho" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://thinh.com.au/">
+                    <h1 class="name">Thinh Ho</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://thinh.com.au/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://thinh.com.au/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://thinh.com.au/now/">
+                        
+                        Now
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">WFH OBS Video Conferencing Setup</h1>
+                    <div class="markdown">
+                        
+    <div class="figure">
+<p><img src="https://thinh.com.au/images/video-conferencing-pipeline.png" alt=""></p>
+</div>
+<p>Another one of my setups that is requested sometimes is my WFH video conferencing setup. This is usually due to my use of OBS/scenes and/or the video and audio quality that I can pull off. Rest assured that it isn&rsquo;t a fancy Youtuber/Twitch streamer setup - I simply don&rsquo;t do enough video conferencing to warrant such a setup even though I&rsquo;ve been doing WFH before COVID-19.</p>
+<p>My setup is pretty basic, but it&rsquo;s my preferred way of running things. The following is just a quick list of the hardware and software for those who like people listing down all their gear.</p>
+<h2 id="why-obs">Why OBS</h2>
+<p>I really like piping both my video and audio through OBS and then using it as a video/audio source (via the virtual webcam plugin) for whatever video conferencing software I have to use.</p>
+<p>In quick points, these are the reasons why:</p>
+<ul>
+<li>It is a single point of control for my video conferencing setup whilst I am using it. i.e. I&rsquo;m not searching for the right options in whatever video conferencing setup I am using.</li>
+<li>My settings persist between different video conferencing software i.e. If I set my audio mix/scene in a certain way it&rsquo;ll be the same across whatever video conferencing software I am using.</li>
+<li>Customisable scenes -scenes are pretty much preset configurations you can switch between. Some examples/reasons why they&rsquo;re handy:
+<ul>
+<li>I don&rsquo;t have to either share my screen or show my face. I can do a completely custom setup and position/overlay myself or other sources/overlays over my desktop capture (censor out sections for example). The customisation is limitless.</li>
+<li>My setup can be switched quickly - a video tutorial/training session will be setup differently to a meeting. With OBS I can configure the scene and save it and quickly switch between whatever I need at that time.</li>
+<li>Controlling what I share without having to constantly find the program in a list/dropdown - I can quickly switch to using scene setups on OBS. I usually just setup a monitor to be the designated &ldquo;shared screen&rdquo; - this makes it mentally easier to track what is being shown on the other end.</li>
+</ul>
+</li>
+<li>Nicer transitions - fade transitions (or fancy star wipes) and having intermission scenes are much more professional looking than abrupt cuts you get when transitioning from webcam to monitor.</li>
+<li>No unintentional webcam streaming - the device selected by the video conferencing software would be &ldquo;Virtual OBS Camera&rdquo; or something to that effect. Therefore, if OBS is off, then there&rsquo;s no webcam shot at all. You can take this a step further by setting up a default blank scene (or a connecting/intermission scene) so you have to make the deliberate effort of switching scenes.</li>
+<li>You can control it via third party apps or hardware like control pads like the Stream Deck or repurposed num pad with macros/key re-mappers.</li>
+<li>I can monitor my audio - this is big as I can easily see if my microphone is working and whether my audio is peaking or not. I can also selectively choose and mix desktop audio - also handy sometimes!</li>
+</ul>
+<p> </p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/obs-audio-mixer.gif" alt=""></p>
+<p class="caption">OBS Audio Mixer - note gain control and disabling desktop audio.</a></p>
+<p>You don&rsquo;t necessary have to use the &ldquo;virtual camera&rdquo; as the source for audio. As it can be quite annoying to open OBS if you need to pipe audio. You can still have it as a source in OBS to just monitor your levels, but your changes won&rsquo;t affect what&rsquo;s being broadcasted.</p>
+<h2 id="details">Details</h2>
+<h3 id="hardware">Hardware</h3>
+<h5 id="audio-technica-at2020-usb-microphone">Audio Technica AT2020 USB Microphone</h5>
+<p>For a while I was tossing up whether to get an XLR dynamic microphone and pair it up with an audio interface (and also pick up an instrument to learn - COVID lockdown times ;-) ). However, after picking this microphone on a Black Friday deal, I think it would have a been a bit overkill for my needs and just added more to my desk clutter. The USB interface is nice and lets me use it in slightly more mobile setup if I want to move it from my <a href="https://www.reddit.com/r/battlestations/">battlestation</a> setup to a <a href="https://www.reddit.com/r/Battletops/">battletop</a> setup at another location. I don&rsquo;t need to play around with an additional interface and it&rsquo;s been pretty much plug and play since I started using it. The condenser design hasn&rsquo;t been a detriment to me as I don&rsquo;t really type much whilst in calls (usually mute myself) and the noise cancellation in Discord is pretty good and it doesn&rsquo;t pick up my mechanical keyboard much.</p>
+<p>I have the microphone mounted on a cheap desktop microphone mount stand I got off eBay for about $20 and it&rsquo;s worked perfectly fine. It doesn&rsquo;t pickup on any vibration from my desk and I haven&rsquo;t found that I needed any further isolation/suspension systems or a pop filter. Only wish it had a manual gain knob. The microphone is placed around chest height between my body and keyboard and is out of frame.</p>
+<p>Other microphones I was considering that have good reviews would have been the Rode NT-USB Mini and the Shure MV7.</p>
+<h5 id="logitech-c920-webcam">Logitech C920 Webcam</h5>
+<p>Got provided one of these in my swag/welcome bag in a recent job. No complaints from me on it as I keep a pretty well lit work area (doubles as my workbench) so I don&rsquo;t run into quality issues. Bad lighting is what is probably restricting your web camera if you&rsquo;re not happy with the quality coming from it.</p>
+<p>For what it&rsquo;s worth, I have my monitors in a portrait/landscape/landscape (PLL) setup and position the camera on slightly taller portrait monitor just above my eyeline. I would like to look like I&rsquo;m facing the camera naturally, so having the camera slightly higher and the video app on the top half of my portrait monitor gives me that look.</p>
+<h5 id="hd6xx-headphones">HD6XX Headphones</h5>
+<p>If I&rsquo;m working at home, I much prefer using open back headphones. They&rsquo;re more comfortable to have on for longer hours and I can hear any ambient sounds (door knocks/deliveries) and I can also hear my own voice much better as to not talk to loudly on calls.</p>
+<p>I go to Airpods/IEMs when I want something a bit more discreet.</p>
+<h5 id="o2odac">O2/ODAC</h5>
+<p>What I use to drive the HD6XX and other headphones - I&rsquo;ve had this for almost a decade and was a kit build. No need for a stack to add more clutter. This does the job for me. My hearing isn&rsquo;t that good for anything more fancy.</p>
+<h5 id="additional-monitors">Additional Monitors</h5>
+<p>I don&rsquo;t think I could pull off this setup without at least an additional monitor. Not only does it give me extra real estate to work, the additional lighting from the monitors certainly helps! I have a triple monitor setup (PLL) so it doesn&rsquo;t real throw off the balance and aids in the overall lighting of my scene.</p>
+<h3 id="software">Software</h3>
+<ul>
+<li><a href="https://obsproject.com/">OBS</a>
+<ul>
+<li><a href="https://obsproject.com/forum/resources/obs-virtualcam.949/">Virtual Cam</a> - Used to create &ldquo;virtual&rdquo; webcams so the video conferencing software will recognise the OBS output. There is now native support now, but I have yet to test it as this setup was done before the native implementation.</li>
+<li><a href="https://obsproject.com/forum/resources/background-removal-portrait-segmentation.1260/">Background Removal</a> - Used to provide the same (but not as good) background removal as seen in Zoom/Teams etc.</li>
+<li>Chroma Key Filter - default filter packaged with OBS.</li>
+</ul>
+</li>
+</ul>
+<h3 id="obs-configuration">OBS Configuration</h3>
+<p>This configuration covers my base configuration for OBS. It&rsquo;s pretty much the setup I use most of time. It has my two main sources (webcam and microphone) and includes a monitor capture source as well as a background to use when I want to enable the background removal filter.</p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/obs-setup-1.png" alt=""></p>
+<p class="caption">Overivew of my most basic OBS configuration.</a></p>
+<h5 id="background-removal-filter">Background Removal Filter</h5>
+<p>I use a background removal plugin to emulate the background removal/blur you get in most modern video conferencing applications (like Teams/Zoom). This is just an open source implementation of it and doesn&rsquo;t match the quality of the others, but it&rsquo;s good enough for me (especially if you have a decently contrasting background and a well lit setup). The following in a screenshot of the settings that I use. You can access this by right clicking the video source and selecting filters - in this case it&rsquo;s my webcam source.</p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/obs-setup-3.png" alt=""></p>
+<p class="caption">Background removal settings.</a></p>
+<p>As you can see, the background removal also provides a matte background (green representing the background removed) for a chroma key filter to help mask in your background.</p>
+<h5 id="chromakey-filter">Chromakey Filter</h5>
+<p>After background removal, we need to remove the background colour generated by the background removal filter. Using the built-in chroma key filter will remove the background colour and I&rsquo;ve provided my settings in the screenshot below.</p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/obs-setup-2.png" alt=""></p>
+<p class="caption">Chroma key settings.</a></p>
+<p>After the chroma key filter is applied, you should end up with the desired background removal effect. You will then need to add another source (an image) and make sure it sits lower than the filtered webcam source.</p>
+<h5 id="virtual-camera">Virtual Camera</h5>
+<p>Once setup, you can then activate the virtual camera by selecting the &ldquo;Start Virtual Camera&rdquo; button under the &ldquo;Controls&rdquo; tab. I haven&rsquo;t tested the native virtual camera implementation yet and I&rsquo;m still using the plugin, which is still running fine on the latest version of OBS at the time of writing this. The setup is pretty simple on the plugin and the following screenshot shows my configuration of it.</p>
+<div class="figure">
+<p><img src="https://thinh.com.au/images/obs-setup-4.png" alt=""></p>
+<p class="caption">VirtualCam plugin settings</a></p>
+<p>That pretty much covers my basic OBS setup.</p>
+<h2 id="getting-quality-video-and-audio">Getting Quality Video and Audio</h2>
+<p>You can achieve good quality video without pretty basic hardware that you might have already. I think what makes the biggest difference in video quality is the lighting. For audio, a good mic definitely helps here, but again you don&rsquo;t really need to spend much to get good audio quality. I would also invest in a good microphone before a camera setup as you&rsquo;ll probably end up using the microphone a bit more than the webcam.</p>
+<p>I&rsquo;ve included some YouTube links to some helpful videos on getting both audio and video squared away.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/9sdft3WiLvE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p> </p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/jiUpK0dhWTE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p> </p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/U_Ho383acVE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        <script src="https://utteranc.es/client.js" repo=""
+                            issue-term="pathname" label="comment" theme="github-light" crossorigin="anonymous" async>
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+<script src="https://thinh.com.au/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+
+</body>
+
+</html>
